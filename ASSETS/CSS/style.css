@@ -12,6 +12,7 @@
     min-height: 100vh;
     background: linear-gradient(to right, hsla(0, 2%, 17%, 0.856), rgba(44, 42, 42, 0.315)), url(https://img.freepik.com/free-photo/various-cakes-supermarket-shelves-sale_627829-7332.jpg?t=st=1711413978~exp=1711417578~hmac=6dde06020a36668995bd95fd59cfcf1c755e8c7ac6a049cb7cac35a2b3bc0d0d&w=740);
     background-size: cover;
+   background-color: aqua;
 }   
 h2{
     color: black;
@@ -75,7 +76,7 @@ background-position: center;
 background-attachment: fixed;
 }
 #reviews{
-    background-color:  cornflowerblue;
+    background-color:  rgba(9, 109, 224, 0.425);
 }
 
 .testimonials{
@@ -90,4 +91,5 @@ background-attachment: fixed;
 }
 #reviews a{
     color: var(--brand);
+    
 }
