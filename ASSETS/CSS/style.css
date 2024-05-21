@@ -29,7 +29,7 @@ H3{
 .btn-brand{
     background-color: aqua;
 }a
-.btn-brand:hover{
+ #banner .btn-brand:hover{
     background-color: rgb(141, 17, 199);
     color: rgb(224, 137, 6);
     border-color: rgb(172, 8, 187);
