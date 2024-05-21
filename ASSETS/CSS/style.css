@@ -1,6 +1,6 @@
 :root{
 
-    --bg1:brown;
+    --bg1:rgb(42, 75, 165);
     --bg2: rgb(44, 42, 43);
     --body:rgb( 95.86, 86);
     --brand: #3bf272;
@@ -60,7 +60,7 @@ section{
     
 }
 .btn-outlined-brand{
-    color: firebrick;
+    color: rgb(178, 39, 34);
     background-color: lightskyblue;
     border-color: blue;
 }
