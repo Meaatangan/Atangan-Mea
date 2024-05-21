@@ -1,0 +1,93 @@
+:root{
+
+    --bg1:brown;
+    --bg2: rgb(44, 42, 43);
+    --body:rgb( 95.86, 86);
+    --brand: #3bf272;
+    --white: rgb(235,235, 235);
+    --p: rgb(161, 150, 150);
+
+}
+#banner {
+    min-height: 100vh;
+    background: linear-gradient(to right, hsla(0, 2%, 17%, 0.856), rgba(44, 42, 42, 0.315)), url(https://img.freepik.com/free-photo/various-cakes-supermarket-shelves-sale_627829-7332.jpg?t=st=1711413978~exp=1711417578~hmac=6dde06020a36668995bd95fd59cfcf1c755e8c7ac6a049cb7cac35a2b3bc0d0d&w=740);
+    background-size: cover;
+}   
+h2{
+    color: black;
+}
+
+H3{
+    color: black;
+}
+.btn{
+    padding: 15px 30px ;
+    transition: all 0.4 ease;
+    font-weight: 800;
+    border-radius: 0;
+}
+.btn-brand{
+    background-color: aqua;
+}a
+.btn-brand:hover{
+    background-color: rgb(141, 17, 199);
+    color: rgb(224, 137, 6);
+    border-color: rgb(172, 8, 187);
+}
+section{
+    padding: 100px;
+    padding-bottom: 100px;
+}
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+.icon-img-box{
+    width: 40%;
+}
+.card{
+    transition: background-color 0.3s,0.3s;
+
+}
+.card:hover{
+    background-color: burlywood;
+
+}
+.card:hover .card-title,
+.card:hover .card-text,
+.card:hover .btn{
+    color: aliceblue;
+    
+}
+.btn-outlined-brand{
+    color: firebrick;
+    background-color: lightskyblue;
+    border-color: blue;
+}
+.btn-outlined-brand:hover{
+    background-color: aqua;
+}
+#cta {
+    background: linear-gradient(to right, hsla(0, 2%, 17%, 0.856), rgba(44, 42, 42, 0.315)), url(https://img.freepik.com/free-photo/various-cakes-supermarket-shelves-sale_627829-7332.jpg?t=st=1711413978~exp=1711417578~hmac=6dde06020a36668995bd95fd59cfcf1c755e8c7ac6a049cb7cac35a2b3bc0d0d&w=740);
+min-height: 70vh;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+}
+#reviews{
+    background-color:  cornflowerblue;
+}
+
+.testimonials{
+    background-color:blueviolet;
+    padding:  30px;
+}
+
+.testimonials img{
+    width: 65px;
+    border-radius: 100px;
+    height: 65px;
+}
+#reviews a{
+    color: var(--brand);
+}
