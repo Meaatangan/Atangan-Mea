@@ -38,6 +38,11 @@ H3{
 section{
     padding: 100px;
     padding-bottom: 100px;
+    background-color: beige;
+
+}
+h2{
+    color: black;
 }
 *{
     font-family: 'Courier New', Courier, monospace;
